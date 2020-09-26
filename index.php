@@ -7,9 +7,11 @@
     <title>Primeiro exemplo de PHP</title>
 </head>
 <body>
-    <h1>Testando PHP</h1>
     <?php
-        echo "<h2>Olá, <br>mundo!</h2>";
+
+        $n = 4;
+        $no = "Gustavo";
+        echo $no;
     ?>
 </body>
 </html>
