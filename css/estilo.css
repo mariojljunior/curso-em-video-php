@@ -9,11 +9,14 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h2{
-    color: #80a2ff;
-    text-shadow: 1px 1px 1px #000000;
+div{
+    background-color: #ffffff;
+    color: #000000;
+    width: 400px;
+    height: 400px;
+    margin: 100px auto 0px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
