@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
-    <title>Operadores de Atribuição</title>
+    <title>Document</title>
 </head>
 <body>
     <div>
         <?php
-            $preco = $_GET["p"];
-            echo "O preço do produto é R$ $preco";
-            $preco += $preco*10/100;
-            echo "<br>E o novo preço com 10% de aumento será R$ ".number_format($preco,2,",",".");
+            $atual = $_GET["aa"];
+            echo "O ano atual é $atual e o ano anterior é ".--$atual;
         ?>
     </div>
 </body>
