@@ -12,7 +12,7 @@
             
         ?>
         <br><br>
-        <a href="exercicio.html">Voltar</a>
+        <a href="javascript:history.go(-1)">Voltar</a>
     </div>
 </body>
 </html>
