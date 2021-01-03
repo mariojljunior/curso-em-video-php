@@ -9,7 +9,7 @@
 <body>
     <div>
         <?php
-            $e = isset($_GET["estado"])?$_GET["estado"]:"select";
+            $e = isset($_GET["estado"])?$_GET["estado"]:0;
             switch($e){
                 case "acre":
                 case "amazonas":
