@@ -9,19 +9,13 @@
 <body>
     <div>
         <?php
-            function soma(){
-                $p = func_get_args();
-                $t = func_num_args();
-                $s = 0;
-                for ($i=0; $i<$t; $i++) {
-                    $s += $p[$i];
+            #include "funcoes.php";
+            require "funcoes2.php";
 
-                }
-                return $s;
-            }
-
-            $r = soma(3,5,2);
-            echo "A soma dos valores é $r";
+            echo "<h1>Testando novas funções</h1>";
+            ola();
+            mostrarValor(4);
+            echo "<h2>Finalizando Programa...</h2>";
         ?>
         <br><br>
         <a href="javascript:history.go(-1)">Voltar</a>
