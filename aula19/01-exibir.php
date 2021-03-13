@@ -8,10 +8,15 @@
 </head>
 <body>
     <div>
-        <?php
-            
-        ?>
+        <pre>
+            <?php
+                $v = array("A","J","M","X","K");
 
+                print_r($v);
+                echo count($v);
+            ?>
+        </pre>
+        
         <br><br>
         <a href="javascript:history.go(-1)">Voltar</a>
     </div>
